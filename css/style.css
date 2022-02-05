@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#logo {
+    margin: auto;
+    text-align: center;
+}
+
+#logo img {
+    width: 30%;
+}
+
+#nav {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #121212ec;
+    border: 2px solid #121212;
+    padding: 10px;
+    margin: 0px 10px;
+    color: white;
+}
+
+.AMG td {
+    cursor: pointer;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.AMG {
+    font-size: 13px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #2e2e2eec;
+    border: 2px solid #121212;
+    padding: 2px;
+    margin: 0px 10px;
+    color: white;
+}
+
+.player {
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    margin: 2% 0px;
+}
+
+.elo {
+    width: 23%;
+    display: inline-block;
+    color: #312000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.elo img {
+    width: 40%;
+}
+
+#icone img {
+    margin-top: -5%;
+    width: 50%;
+    border: 2px solid;
+    border-color: #7a6310 #caa82d;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+#level {
+    width: 30%;
+    border: 2px solid;
+    border-color: #7a6310 #caa82d;
+    border-radius: 20%;
+    margin: auto;
+    z-index: 2;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+#nome {
+    font-size: 40px;
+    color: #785a28;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    width: 90%;
+    margin: auto;
+}
+
+#main {
+    background-color: rgba(169, 169, 169, 0.651);
+    margin: 10px 10px 0px 10px;
+}
+
+#mainA {
+    background-color: rgba(169, 169, 169, 0.651);
+    margin: 0px 10px 50px 10px;
+}
+
+#enviar {
+    position: absolute;
+    margin-top: -2px;
+    border: none;
+    background: none;
+    font-size: 25px;
+    color: #2ca170;
+    cursor: pointer;
+}
+
+#fechar {
+    top: 0;
+    float: right;
+    margin: 5px;
+    border: none;
+    background: none;
+    font-size: 25px;
+    color: #5c2014;
+    cursor: pointer;
+}
+
+#atualizarA {
+    top: 0;
+    float: right;
+    margin-top: 5px;
+    border: none;
+    background: none;
+    font-size: 25px;
+    color: #07814e;
+    cursor: pointer;
+}
+
+.deletar {
+    border: none;
+    background: none;
+    font-size: 25px;
+    color: #5c2014;
+    cursor: pointer;
+}
+
+.deletarA {
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: #5c2014;
+    cursor: pointer;
+}
+
+#atualizar {
+    border: none;
+    background: none;
+    font-size: 25px;
+    color: #2ca170;
+    cursor: pointer;
+}
+
+#amigos {
+    border: none;
+    background: none;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    float: right;
+}
+
+#friend {
+    padding: 5px;
+    float: right;
+}
+
+footer {
+    font-size: 13px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #121212;
+    color: rgb(172, 172, 172);
+    text-align: center;
+    cursor: auto;
+}
+
+footer p {
+    margin: 6px;
+    user-select: none;
+}
+
+#imgMatch img {
+    min-width: 10px;
+    max-width: 50px;
+}
+
+#imgMatch img {
+    min-width: 10px;
+    max-width: 50px;
+}
+
+#modo {
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    width: 15.00%;
+}
+
+#modo img {
+    width: 100%;
+    margin-top: 30%;
+}
+
+#vitoria {
+    background-color: #ffffffad;
+}
+
+#derrota {
+    background-color: #ffffffad;
+}
+
+#partida2 {
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid black;
+    margin: 40px 0;
+    text-align: center;
+}
+
+#partida3 {
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid black;
+    margin: 40px 0;
+    text-align: center;
+}
+
+#partida {
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid black;
+    margin: 40px 0;
+    text-align: center;
+}
+
+#true table tbody td {
+    background-color: #00800070;
+    border: 1px solid #008000;
+    width: 100%;
+}
+
+#false table tbody {
+    width: 100%;
+}
+
+#false table {
+    width: 100%;
+}
+
+#true table tbody {
+    width: 100%;
+}
+
+#false table tbody td {
+    background-color: #ff000070;
+    border: 1px solid #ff0000;
+    width: 100%;
+}
+
+#true {
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+    width: 25%;
+    margin-left: 5%;
+}
+
+#false {
+    text-align: center;
+    margin: 0 auto;
+    float: right;
+    width: 25%;
+    margin-right: 5%;
+}
+
+#loadingP {
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(169, 169, 169, 0.651);
+    margin: 0px 10px 0px 10px;
+}
+
+#loading {
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(169, 169, 169, 0.651);
+    margin: 0px 10px 0px 10px;
+}
+
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+
+.lds-facebook div {
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    left: 6px;
+    width: 13px;
+    background: #fff;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+
+.lds-facebook div:nth-child(1) {
+    left: 6px;
+    animation-delay: -0.24s;
+}
+
+.lds-facebook div:nth-child(2) {
+    left: 26px;
+    animation-delay: -0.12s;
+}
+
+.lds-facebook div:nth-child(3) {
+    left: 45px;
+    animation-delay: 0;
+}
+
+@keyframes lds-facebook {
+    0% {
+        top: 6px;
+        height: 51px;
+    }
+    50%, 100% {
+        top: 19px;
+        height: 26px;
+    }
+}
+
+@media (max-width: 600px) {
+    .player {
+        width: 100%;
+    }
+    .elo {
+        width: 99%;
+        text-align: center;
+    }
+    #nav {
+        text-align: left;
+    }
+    .deletar {
+        font-size: 18px;
+    }
+    #atualizar {
+        font-size: 18px;
+    }
+    #bemV {
+        display: none;
+    }
+    #nicka {
+        display: none;
+    }
+    #true {
+        text-align: center;
+        margin: 0 auto;
+        display: inline-block;
+        width: 100%;
+        margin-right: 0%;
+    }
+    #false {
+        text-align: center;
+        margin: 0 auto;
+        display: inline-block;
+        width: 100%;
+        margin-right: 0%;
+    }
+}
